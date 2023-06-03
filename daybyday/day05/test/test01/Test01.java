@@ -1,6 +1,6 @@
-package onetest;
+package test01;
 
-public class Test1 {
+public class Test01 {
     static int a=10;
     static int b=10;
     public static void main(String[] args) {
