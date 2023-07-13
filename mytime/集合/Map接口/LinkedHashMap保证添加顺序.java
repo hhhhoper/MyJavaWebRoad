@@ -1,5 +1,7 @@
 package 集合.Map接口;
-import java.util.*;创建LinkedHashMap集合 
+import java.util.*;
+class LinkedHashMap保证添加顺序{
+//创建LinkedHashMap集合 
 public static void main(String[] args) {
     Map map1=new HashMap();
     map1.put(2,"Rose");
