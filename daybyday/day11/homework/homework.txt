@@ -1,0 +1,102 @@
+1.D
+2.D
+3.C
+4.D
+5.A
+6.D
+7.A
+8.D
+9.C
+10.A
+简答：
+1.
+i + j is 23
+k is 5
+j is 3
+
+2
+FatherClass Create
+ChildClass Create
+
+3
+FatherClass Create
+ChildClass Create
+
+4
+类B是类A的子类（或称为派生类）。如果a是类A的对象，则a.toString()方法将返回类A中定义的toString()方法的返回值。如果b是类B的对象，则b.toString()方法将返回类B中定义的toString()方法的返回值。
+
+5
+class A {
+    String x = "gain";
+    String str = " no pain ";
+    
+    public String toString() {
+        return str + x;
+    }
+}
+
+public class B extends A {
+    String x = " no ";
+    
+    public String toString() {
+        return str + x + " and " + super.x;
+    }
+}
+
+class B {
+    private int x;
+    private char y;
+    
+    public B(int i, char j) {
+        x = i;
+        y = j;
+    }
+}
+
+6.
+class A {
+    int m = 1;
+    double n = 2.0;
+    
+    void print() {
+        System.out.println("Class A: m=" + m + "，n=" + n);
+    }
+}
+
+class B extends A {
+    float m = 3.0f;
+    String n = "Good .";
+}
+1)
+输出结果为："Class A: m=1，n=2.0"
+2)输出结果为："Class A: m=1，n=2.0"
+
+7
+该代码片段缺少完整的程序结构，无法确定运行结果。
+
+8.
+parent
+child
+child
+
+9.
+super.x=11x=100
+
+10
+public abstract class Shape {
+    public abstract double calculateArea();
+}
+
+11
+public interface ITF{
+    public static final double PI = Math.PI;
+    public abstract double area(double a, double b);
+}
+12
+public Test {
+    void test();
+}
+class ________interface_________{
+    public void test(){
+    }
+}

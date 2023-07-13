@@ -1,0 +1,309 @@
+this在程序中代表的是? :A
+A.类的对象
+
+B.属性
+
+C.方法
+
+D.父类
+
+设 A为已定义的类名，下列声明并创建A类的对象a的语句中正确的是?:A
+A. A a=new A( );
+
+B.public A a=A( );
+
+C.A a=new class( );
+
+D.a A;
+
+下列对构造方法的调用方式的描述中正确的是?:A
+A.使用new调用
+
+B.使用类名调用
+
+C.使用对象名调用
+
+D.调用方法为对象名.方法名()
+
+设 X 、Y 均为已定义的类名，下列声明类X的对象x1的语句中正确的是?:A
+A.X x1;
+
+B.X x1= X ( );
+
+C.X x1=new Y( );
+
+D.int X x1;
+
+定义类头时，不可能用到的关键字是？:D
+A.class
+
+B.public
+
+C.extends
+
+D.static
+
+下面关于类的结构的说法正确的是 ？B
+A.类只能包含一个构造方法
+
+B.类可以没有属性
+
+C.类只能包含方法
+
+D.类只能包含属性
+
+下面哪个关键字在定义类头时用不到？:D
+A.class
+
+B.public
+
+C.extends
+
+D.int
+
+下面类的定义中结构正确的是 ？ :A B
+A.class A
+
+B.class 2A
+
+C.int class A
+
+D.public class A
+
+关于java源文件下列说法正确的是？ :A C D
+A.一个java源文件中只能有一个public 修饰的类
+
+B.一个java源文件中只能有一个缺省的类
+
+C.一个java源文件中可以有多个protected修饰的类
+
+D.一个java源文件中可以有多个protected修饰的类
+
+有一个类A，以下为其构造方法的声明，其中正确的是？:B
+A.void A(int x)
+
+B.A(int x)
+
+C.a(int x)
+
+D.void a(int x)
+
+下列构造方法的调用方式中，正确的是 :C
+A.按照一般方法调用
+
+B.由用户直接调用
+
+C.只能通过new自动调用
+
+D.不用调用，自动执行
+
+设i , j为类X中定义的double型变量名，下列X类的构造方法中不正确的是?:A
+A.double X(double k )
+
+B.X( )
+
+C.X(double m, double n )
+
+D.X(double k )
+
+以下关于构造函数的描述错误的是 ? :A 
+A.构造函数的返回类型只能是void型。
+
+B.构造函数是类的一种特殊函数，它的方法名必须与类名相同。
+
+C.构造函数的主要作用是完成对类的对象的初始化工作。
+
+D.一般在创建新对象时，系统会调用构造函数。
+
+面向对象程序不包含下面的哪个组成部分？ :D
+A.类
+
+B.对象
+
+C.接口
+
+D.程序员
+
+下列关于类的定义的选项中，哪些可以通过new Thing()方法来创建该类的一个对象? :A CS
+A. public class Thing { public Thing() {}}
+
+B. public class Thing { public Thing(void) {} }
+
+C. public class Thing { public Thing() {}}
+
+D. public class Thing { public Thing(String s) {} } }
+
+E. public class Thing { public void Thing(String s) {} }
+
+(二)简答题
+
+写出程序的运行结果。
+public class C {
+
+public static void main(String args[]) {
+
+String s1 = new String("Hello!");
+
+String s2 = new String("I love JAVA.");
+
+A s = new A(s1, s2);
+
+System.out.println(s1 + s2);
+
+System.out.println(s.toString());
+
+}
+
+}
+答：Hello!I love JAVA
+   
+
+class A {
+
+String s1;
+
+String s2;
+
+A(String str1, String str2) {
+
+s1 = str1;
+
+s2 = str2;
+
+str1 = "No pain ,";
+
+str2 = "no gain!";
+
+System.out.println(str1 + str2);
+
+}
+
+public String toString() {
+
+return s1 + s2;
+
+}
+
+}
+答：No pain,no gain!
+
+2.写出下列程序的输出结果。
+
+class Cruncher {
+
+void crunch(int i) {
+
+System.out.print("int");
+
+}
+
+void crunch(String s) {
+
+System.out.print("String");
+
+}
+
+public static void main(String args[]) {
+
+Cruncher crun = new Cruncher();
+
+char ch = 'p';
+
+int c = 12;
+
+crun.crunch(ch);
+
+System.out.print(";");
+
+crun.crunch(c);
+
+}
+
+}
+答p;12
+
+3.下面是同学写的Teacher类，请指出其中的错误。
+
+static class Teacher {
+
+string name;
+
+int age;
+
+void Teacher(int n, int a) {
+
+name = n;
+
+age = a;
+
+return age;
+
+}
+
+}
+答：构造方法没有返回值
+
+4.下面是一个类的定义，请完成程序填空。
+
+public class Myclass {
+
+int x, y;
+
+Myclass ( int i, int j) // 构造方法 {
+
+x=i; y=j;
+
+}
+
+}
+
+5.下面方法的功能是判断一个整数是否为偶数，将程序补充完整。
+
+public boolean isEven(int a) {
+
+if(a%2==0)
+
+return true;
+
+else
+
+return false;
+
+}
+
+6.定义求绝对值的方法abs(),利用方法的重载实现既能求整数的绝对值， 又能求浮点数的绝对值。
+答：public int abs(int num){
+  if(num<0){
+    num=-num;
+  } 
+  return num;
+}
+   public int abs(double num){
+     if(num<0){
+       num=-num;
+     }
+     return num;
+   }
+
+7.创建一个Circle类，此类中包括一个半径属性radius和一个计算面积的方法findArea。在main方法中创建Circle类的对象c，并计算半径为5的圆的面积。
+答：class Circle{
+     int radius;
+     double pi=3.14;
+     public static void main(String[]args){
+         Circle c=new Circle();
+         c.radius=5;
+         System.out.println("圆的面积:"+findArea());
+     }
+     public double findArea(){
+         return pi*radius*radius;
+     }
+}
+
+8.创建一个Telephone类，属性有电话号码number，还有2个构造方法，其中一个没有参数，一个带参数。
+class Telephone{
+    String number;
+    public Telephone(){}
+    public Teacher(String number){
+        this.number=number;
+    }
+}
