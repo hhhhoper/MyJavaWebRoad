@@ -1,4 +1,4 @@
-package 集合.Map接口;
+
 import java.util.*;
 public class forEach遍历 {
    public static void main(String[] args) {

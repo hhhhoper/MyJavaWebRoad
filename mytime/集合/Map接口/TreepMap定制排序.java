@@ -9,7 +9,7 @@ class CustomComparator implements Comparator{
 }
 public class TreepMap定制排序 {
         public static void main(String[] args) {
-            Map map=new TreeMap(new CustomComparator());
+        Map map=new TreeMap(new CustomComparator());
         map.put("2","Rose");
         map.put("1","Jack");
         map.put("3","Lucy");

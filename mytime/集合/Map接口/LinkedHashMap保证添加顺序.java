@@ -1,4 +1,4 @@
-package 集合.Map接口;
+
 import java.util.*;
 class LinkedHashMap保证添加顺序{
 //创建LinkedHashMap集合 

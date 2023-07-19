@@ -1,4 +1,4 @@
-package 集合.Map接口;
+
 import java.util.*;
 public class Iterator迭代器遍历 {
     public static void main(String[] args) {

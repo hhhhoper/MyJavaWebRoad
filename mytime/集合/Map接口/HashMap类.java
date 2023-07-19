@@ -1,4 +1,4 @@
-package 集合.Map接口;
+
 import java.util.HashMap;
 import java.util.Map;
 public class HashMap类{
