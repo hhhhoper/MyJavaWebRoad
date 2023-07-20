@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Java常用类/Java常用类.iml" filepath="$PROJECT_DIR$/Java常用类/Java常用类.iml" />
+      <module fileurl="file://$PROJECT_DIR$/io流/io流.iml" filepath="$PROJECT_DIR$/io流/io流.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mytime.iml" filepath="$PROJECT_DIR$/mytime.iml" />
+      <module fileurl="file://$PROJECT_DIR$/内部类/内部类.iml" filepath="$PROJECT_DIR$/内部类/内部类.iml" />
+    </modules>
+  </component>
+</project>
