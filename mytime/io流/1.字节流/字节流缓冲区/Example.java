@@ -20,6 +20,7 @@ class  Example{
         //输出拷贝花费时间
         System.out.println("花费时间为:"+(endTime-beginTime)+"毫秒");
         //关闭流
+
         out.close();
         in.close();
     }
