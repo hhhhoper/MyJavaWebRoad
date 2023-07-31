@@ -1,4 +1,4 @@
-package 网络编程;
+package 网络编程.UDP通信;
 
 import java.net.DatagramPacket;
 import java.net.DatagramSocket;
